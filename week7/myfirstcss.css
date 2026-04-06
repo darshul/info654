@@ -1,0 +1,82 @@
+h1 {
+    color: #DB5ABA; 
+    text-align: center; 
+    font-size: 5.5em;
+    font-weight: 100;
+    font-family: snell Roundhand, cursive;
+    margin-top:-2px;
+    margin-bottom: 10px
+}
+p {
+    color:red;
+    font-size: 1.4em;
+    font-weight: 100;
+    font-family: 'Inter', 'Roboto', sans-serif;
+    text-indent: 40px;
+}
+body {
+    background-color: rgb(246, 240, 232);
+}
+#homeimage {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+}
+#homeimage a {
+    display: block;
+    width: 50%
+}
+#homeimage img {
+    width: 100%;
+    height: auto;
+}
+#topnav {
+  display: flex;
+  gap: 200px;
+  padding: 15px;
+  justify-content: center;
+  list-style: none;
+  font-size: 1em;
+  font-family: 'Inter', 'Roboto', sans-serif;
+}
+#topnav a {
+    text-decoration: none;
+    color: #403326;
+}
+#topnav a:hover {
+    color:#A2AD59;
+    text-decoration: none;
+  }
+@media (max-width: 768px) {
+    #homepage a {
+        width: 80%;
+    }
+    #topnav {
+            gap: 30px;
+    }
+}
+table {
+    border: 1.5px dotted #FC834A;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+td {
+    border: 1.5px dotted #FC834A;
+    border-radius: 10px;
+    color:#403326;
+    font-size: 1.4em;
+    font-weight: 100;
+    font-family: 'Inter', 'Roboto', sans-serif;
+}
+th {
+    font-size: 1.4em;
+    font-family: 'Inter', 'Roboto', sans-serif;
+    font-weight: bold;
+}
+p {
+    border: 1.5px dotted #FC834A;
+    border-radius: 10px;
+}
