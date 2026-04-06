@@ -13,6 +13,8 @@ p {
     font-weight: 100;
     font-family: 'Inter', 'Roboto', sans-serif;
     text-indent: 40px;
+    border: 1.5px dotted #FC834A;
+    border-radius: 10px;
 }
 body {
     background-color: rgb(246, 240, 232);
@@ -49,7 +51,7 @@ body {
     text-decoration: none;
   }
 @media (max-width: 768px) {
-    #homepage a {
+    #homeimage a {
         width: 80%;
     }
     #topnav {
@@ -75,8 +77,4 @@ th {
     font-size: 1.4em;
     font-family: 'Inter', 'Roboto', sans-serif;
     font-weight: bold;
-}
-p {
-    border: 1.5px dotted #FC834A;
-    border-radius: 10px;
 }
